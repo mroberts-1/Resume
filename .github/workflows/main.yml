@@ -26,8 +26,8 @@ jobs:
           port: 21
           # Transfer protocol (ftp, ftps, sftp)
           protocol: ftps
-          local-dir: ./dist
-          remote-dir: /public_html
+          local_dir: ./dist
+          remote_dir: /public_html
           debug: log
           # Timeout in seconds.
           timeout: 30
